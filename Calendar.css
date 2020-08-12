@@ -1,0 +1,40 @@
+#data_chooser{
+	font-size:44px;
+	margin-left:43%;
+	color:aqua;
+}
+#calendar_display table {
+table-layout: fixed;
+width:400px;
+height:380px;
+margin: auto;
+border-color:grey;
+border:solid;
+border-collapse: collapse;
+}
+#calendar_display table td{
+width: 70px;
+
+}‏
+#nameDay{
+	background-color:#888888;
+	border:solid;
+	border-color:#555555;
+}
+
+#tMonth{
+	border-collapse: collapse;
+}
+tr,td {
+    border:1px solid #111;
+    text-align: center;
+	font-weight: bold;
+    padding:3px;
+}
+thead{
+	margin:auto;
+    font-size:18px;
+    text-align:center;
+    background:#EEE;
+    border-radius:3px;
+}

@@ -1,0 +1,45 @@
+<!doctype html5>
+<html>
+    <head>
+      <title>Calendar</title>
+        <link rel = "stylesheet"  href="Calendar.css"/>
+        <script src = "query-3.3.1.min.js"></script>
+        <script src = "Calendar.js"></script>  
+	</head>
+	<body>
+		 <div class="event">
+		<label id="newEvent"></label>
+		<br/><br/>
+		<label class="lab">Begin Time:</label>
+		<input type="Time" id="time1"/>
+		<label class="lab">End Time:</label>
+		<input type="Time" id="time2"/>
+		<br/><br/>
+		<label class="lab">Description:</label>
+		<input id="desc"/><br/>
+		<button id="ok">OK</button>
+		</div>
+		<div id="calendar_container">
+			<button id="arrow_left"> < </button>
+			<button id="arrow_right"> > </button>
+			<button id="Today"> Today </button>
+			<div id="data_chooser"></div>
+			<div id="calendar_display">
+				<table id="tMonth">
+					<thead>
+						
+						<tr id="nameDay"><td>Sun</td><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td></tr>
+					</thead>
+					<tbody>
+						<tr class="r0"><td class="col0"><td class="col1"><td class="col2"><td class="col3"><td class="col4"><td class="col5"><td class="col6"></td></tr>
+						<tr class="r1"><td class="col0"><td class="col1"><td class="col2"><td class="col3"><td class="col4"><td class="col5"><td class="col6"></td></tr>
+						<tr class="r2"><td class="col0"><td class="col1"><td class="col2"><td class="col3"><td class="col4"><td class="col5"><td class="col6"></td></tr>
+						<tr class="r3"><td class="col0"><td class="col1"><td class="col2"><td class="col3"><td class="col4"><td class="col5"><td class="col6"></td></tr>
+						<tr class="r4"><td class="col0"><td class="col1"><td class="col2"><td class="col3"><td class="col4"><td class="col5"><td class="col6"></td></tr>
+						<tr class="r5"><td class="col0"><td class="col1"><td class="col2"><td class="col3"><td class="col4"><td class="col5"><td class="col6"></td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
